@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pages 1–2</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff8e1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 20px;
+      font-family: sans-serif;
+    }
+    .page {
+      max-width: 45vw;
+      height: auto;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease;
+    }
+    .page:hover {
+      transform: scale(1.01);
+    }
+  </style>
+</head>
+<body>
+  <a href="book.html">
+    <img class="page" src="images/baam_book_00.png" alt="Page 1">
+  </a>
+  <a href="book_page2.html">
+    <img class="page" src="images/baam_book_01.png" alt="Page 2">
+  </a>
+</body>
+</html>
